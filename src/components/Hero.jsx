@@ -11,11 +11,6 @@ const Hero = () => (
       <p className="text-white text-base md:text-xl text-center max-w-2xl mb-6">
         Yazılım geliştirme tutkusu ile modern ve kullanıcı dostu uygulamalar geliştiren bir bilgisayar mühendisliği öğrencisi
       </p>
-      {/* Butonlar */}
-      <div className="flex gap-4 mb-4 flex-col sm:flex-row w-full sm:w-auto justify-center">
-        <a href="/project" className="btn-primary text-base px-6 py-2">Projelerimi Gör</a>
-        <a href="/contact" className="btn-primary text-base px-6 py-2 bg-accent hover:bg-secondary">İletişime Geç</a>
-      </div>
     </div>
   </section>
 );
